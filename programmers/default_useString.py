@@ -5,5 +5,5 @@
 import re
 
 def solution(s):
-    reg = re.compile("^(\d{4}|\d{6})$");
+    reg = re.compile("^(\d{4}|\d{6})$")
     return bool(reg.match(s))
