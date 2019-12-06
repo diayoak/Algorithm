@@ -1,7 +1,7 @@
 /*
 	rank:	1
-	title:	하샤드 수
-	link: 	https://programmers.co.kr/learn/courses/30/lessons/12947
+	title:	핸드폰 번호 가리기
+	link: 	https://programmers.co.kr/learn/courses/30/lessons/12948
 */
 
 function solution(phone_number) {
