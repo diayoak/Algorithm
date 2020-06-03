@@ -1,5 +1,7 @@
-STARTTIME=$(date +%s.%n)
+START_SECOND=$(date +%s)
+START_MILLISECOND=$(date +%n)
 ./convert.sh ./TestFile/doc:docx/doc-small.docx ./outputs/doc/ image
-ENDTIME=$(date +%s.%n)
+END_SECOND=$(date +%s)
+END_MILLISECOND=$(date +%n)
 
-echo "doc-small.docx : $(($ENDTIME_DOC_SMALL - $STARTTIME_DOC_SMALL)) seconds"
+echo "doc-small.docx : $(($END_SECOND - $START_SECOND)).$(($END_MILLISECOND - $START_MILLISECOND)) seconds"
