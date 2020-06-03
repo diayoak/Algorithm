@@ -1,4 +1,4 @@
-STARTTIME_DOC_SMALL=$(date +%s)
+STARTTIME_DOC_SMALL=$(date +%s, %n)
 ./convert.sh ./TestFile/doc:docx/doc-small.docx ./outputs/doc/ image
 ENDTIME_DOC_SMALL=$(date +%s)
 
